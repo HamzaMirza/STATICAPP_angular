@@ -1,0 +1,148 @@
+
+.firstHead{
+    text-align: center;
+}
+.firstList{
+    list-style: none;
+    font-size: 14px;
+    text-align: center;
+}
+hr{
+    margin-top: 4%;
+}
+li{
+    font-size: 14px;
+    line-height: 20px;
+        display: list-item;
+    /*text-align: justify;*/
+
+}
+
+ul{
+    padding: 0;
+    margin: 0 0 10px 25px;
+    
+}
+.ac{
+    text-align: center;
+}
+#test{
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+}
+.member-name{
+    color: #0082CC;
+    margin-top: 12px;
+}
+.member-positon{
+    color: #aaa;
+        margin: 0 0 10px 0;
+    font-style: italic;
+        
+}
+.container{
+    font-family: "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        line-height: 1.4em;
+        max-width: 970px;;
+        /*width: auto !important;*/
+        overflow-x: hidden !important;
+        /*margin-right: -20px;*/
+     
+        /*padding-left: 5%px;*/
+        /*width: 100%;m*/
+}
+
+h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    line-height: 35px;
+}
+h1{
+    font-weight: bold;
+    font-size: 24px;;
+    text-align: center;
+    line-height: 40px;
+}
+h4{
+    font-size: 14px;
+}
+
+.hr{
+    margin-top: 1px;
+}
+/*img{
+    width:406px;
+    height: 249px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+        
+
+}*/
+.firstDiv{
+    /*margin-left: -30px;*/
+        margin: 0 auto;
+    
+}
+.imgSpan{
+    text-align:justify;
+    /*padding-left: 35px;*/
+    /*margin-left: 37px;*/
+    /*border: 5px solid black;*/
+}
+.hero-unit{
+    position: relative;
+    padding: 40px 0 0 0;
+    background: transparent;
+
+}
+img{
+ height: 300px;
+ max-width: 100%;
+ overflow: hidden;
+ height: auto;
+ float: left;
+
+}
+.forImg{
+    /*padding-right: 20px;*/
+    /*margin-left: 5%;*/
+    /*margin-right: 15%;*/
+        margin: 0 auto;
+        /*text-align: justify;*/
+    
+    /*min-width: 100%;*/
+}
+p{
+    font-size: 13px;
+        color: #000;
+    text-align: justify;
+}
+.pbtn{
+        text-align: center;
+    margin-top: 20px;
+    background: #0088cc;
+    /* color: white; */
+    border-radius: 5px;
+    min-height: 31px;
+    padding-top: 6px;
+    padding-bottom: 6px;    
+    cursor: pointer;
+    max-width: 375px;
+    margin: 0 auto;
+    margin-top: 15px;
+        margin-bottom: 22px;
+}
+a{
+    font-size: 14px;
+    min-width: auto;
+    padding: 4px 12px;
+    /*margin-left: 12px;
+    margin-right: 12px;*/
+    color: white;
+    text-align: center;
+    /*margin-left: -10px;*/
+}
+

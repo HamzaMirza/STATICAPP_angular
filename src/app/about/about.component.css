@@ -1,0 +1,139 @@
+.container{
+    max-width: 943px;
+}
+p {
+    
+    margin: 0 0 10px;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+
+}
+h3{
+        margin: 0 0 10px 0;
+        font-size: 18px;
+}
+ul.partners {
+  margin-top:10px;
+  width:auto;
+}
+.clearfix{
+    display: block;
+}
+ul.partners img {
+ max-height:60px; 
+}
+ul.partners li {
+ margin: 0 15px 4px;
+ /*list-style: none;
+ display: inline;*/
+}
+.partners {
+    text-align: center;
+    clear: both;
+    width: 900px ;
+    margin: 0 auto ;
+    /*border: 1px solid black;*/
+    overflow: hidden;
+ 
+    
+}
+ul {
+    padding: 0;
+    margin: 0 0 10px 25px;
+}
+.partners li {
+    height: 68px;
+    width: 150px;
+    float: left;
+    list-style: none;
+    margin: 0 15px;
+    /* -webkit-filter: grayscale(100%); */
+}
+img{
+    /*width: 145px;*/
+    max-width: 100%;
+    /*margin: 0 auto;*/
+        height: auto;
+    vertical-align: middle;
+    
+}
+.hero-unit {
+    position: relative;
+    padding: 40px 0 0 0;
+    background: transparent;
+  
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 200px;
+    line-height: 30px;
+    color: inherit;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    
+}
+.ac {
+    text-align: center;
+}
+.member-bio{
+    font-size:13px;
+     color:#000;
+    text-align:justify;
+    border-top: 1px dotted #aaa;
+    margin: 16px 0;
+    padding: 16px 0;
+}
+h3{
+            margin: 30px 0 10px 0;
+            font-weight: bold;
+            margin-bottom: 21px;
+}
+.member .member-position {
+    color: #aaa;
+    font-weight: normal;
+    font-style: italic;
+    margin: 0 0 10px 0;
+}
+.member-name{
+        color: #0082CC;
+    
+}
+h4{
+    font-size: 14px;
+}
+
+/*@media only screen and (max-width: 557px) {
+    .partners {
+    margin-left:100px;
+    }
+}
+
+@media only screen and (max-width: 487px) {
+    .partners {
+    margin-left:110px;
+    }
+}*/
+
+
+
+
+@media (max-width: 979px){
+    .partners {
+    width: 550px !important;
+}
+}
+@media (max-width: 600px){
+    .partners {
+    width: 400px !important;
+}
+}
+@media (max-width: 420px){
+    .partners {
+    width: 190px !important;
+}
+}
+
+
+

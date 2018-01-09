@@ -1,0 +1,52 @@
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-10 col-md-offset-1">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+            <h3>Teseda</h3>
+            <ul>
+              <li *ngFor="let page of pages"><a [routerLink]="page.path">{{page.text}}</a></li>
+            </ul>
+          </div>
+          <!--  -->
+          <div class="col-xs-12 col-sm-4 social-networks">
+            <h3>Follow us on LinkedIn </h3>
+              <a href="http://www.linkedin.com/company/teseda-corporation" title="Follow us on LinkedIn" target="_blank" > <i class="fa fa-linkedin"></i></a>
+          </div>
+          <div class="col-xs-12 col-sm-4 subsription">
+            <h3>Newsletter</h3>
+            <p>Subscribe to our newsletter bringing you the latest industry news and cutting edge tips.</p>
+            <form  class="form-horizontal">
+              <input   type="email"  name="email" placeholder="Enter your email" required="required" class="form-control" >
+              <button  type="submit" class="btn btn-sm btn-primary"> Subscribe </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+<section class="lowerFooter">
+  <div class="container "> 
+    <div class="row">
+      <div class="col-xs-12 col-md-10 col-md-offset-1">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 ">
+            <i>© 2007—2017 Teseda Corporation</i>
+          </div>
+          <div class="col-xs-12 col-sm-4 ">
+            <i class="glyphicon glyphicon-earphone"></i>
+            <a href="tel:+5032233315" >+1 (503) 223-3315</a>
+          </div>
+          <div class="col-xs-12 col-sm-4 ">
+            <i class="glyphicon glyphicon-envelope"></i>
+            <a href="mailto:info@teseda.com">info@teseda.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

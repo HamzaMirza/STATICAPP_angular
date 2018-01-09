@@ -1,0 +1,72 @@
+@font-face 
+{
+	font-family: 'teseda';
+	src:url('../../assets/fonts/teseda3.eot');
+	src:url('../../assets/fonts/teseda3.eot?#iefix') format('embedded-opentype'),
+		url('../../assets/fonts/teseda3.woff') format('woff'),
+		url('../../assets/fonts/teseda3.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+*
+{
+		font-family: "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;		
+}
+.hero-unit 
+{
+    position: relative;
+    padding: 40px 0 0 0;
+    background: transparent;
+}
+.ac
+{
+    text-align: center;
+}
+.ac>h1 
+{
+    margin: 0 0 10px;
+    font-size: 22px;font-weight:400;
+}
+.ac  .btn-large
+{
+	font-size:16px;
+	padding: 10px 19px;
+    font-size: 17.5px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+	border-radius: 6px;
+	background-image: none;
+	box-shadow: none;
+	color:white;
+	background-color: #006dcc;
+}
+#div_intro
+{
+	margin-top: 20px;
+}
+#div_intro p
+{
+	font-size: 18px;
+	font-weight: lighter;
+	text-align: justify;	
+}
+#pageContent
+{
+    line-height: 1.4em;
+}
+.readmore
+{
+	padding: 0;
+    font-size: 13px;
+    line-height: 1.4em;
+}
+#pageContent h2
+{
+	color: #3366ff; font-size: x-large;
+	font-weight: 700;
+	line-height: initial;
+}
+#pageContent ul li
+{
+	font-weight: 200; line-height: 25px; font-size: 14px;
+}

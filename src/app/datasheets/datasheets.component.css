@@ -1,0 +1,39 @@
+.cover-div {
+    position: relative;
+    padding: 40px 0 0 0;
+    background: transparent;
+    margin-bottom: 30px;
+}
+
+.td-heading{
+    font-size: 17px;
+    display: block;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+.td-class{
+    padding: 8px;
+    vertical-align: top;
+    border-top: 1px solid #dddddd;
+}
+.td-data{
+    font-size:13px;
+    color: #777;
+}
+
+tr:nth-child(even) {
+    background: #f5f5f5;;
+}
+
+/*.sort:after{
+    content: "";
+    border-width: 0 4px 4px;
+    border-style: solid;
+    border-color: #000 transparent;
+    visibility: visible;
+    right: 115px;
+    top: 2%;
+    position: absolute;
+    margin-top: 80px;
+    opacity: .6;
+}*/

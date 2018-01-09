@@ -1,0 +1,58 @@
+<nav class="navbar navbar-default">
+  <div class="navbar-inner ">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed btn-navbar" data-toggle="collapse" data-icon="0" data-target="#menu">
+      </button>
+        <a class="brand" href="#" data-icon="a"></a>
+        <a class="brand arc" href="#" data-icon="b"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="nav navbar-nav">
+          <li [class.active]="isActive==i" *ngFor="let link of links; let i=index;"><a [routerLink]="link.path" (click)="toggleActive(i)">{{link.text}}</a></li>
+        </ul>
+      </div>
+      <ul class="loginbar pull-right">
+        <li>
+          <i class="glyphicon glyphicon-earphone"></i>
+          <a href="tel:+5032233315">+1 (503) 223-3315</a>
+        </li>
+        <li class="devider"></li>
+        <li>
+          <span class="glyphicon glyphicon-search"></span>
+          <a (click)="toggleTopSearch()">Search</a>
+        </li>
+        <li class="devider"></li>
+        <li class="ng-scope">
+          <i class="glyphicon glyphicon-user"></i>
+          <a (click)="toggleTopLogin()">Login</a>
+        </li>
+      </ul>
+      <div class="search-input-top input-group" *ngIf="showSearch">
+        <input type="search" class="form-control" [(ngModel)]="searchInput" placeholder="Search">
+      </div>
+      <div class="login-input-top" *ngIf="showLogin">
+        <form >
+          <fieldset>
+            <div class="control-group">
+              <div class="controls">
+                <input type="text" id="username" placeholder="Your email" name="username" class="form-control">
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="controls">
+                <input type="password" id="password" placeholder="Password" name="password" class="form-control">
+              </div>
+            </div>
+            <div class="control-group last">
+              <div class="controls">
+                <button class="btn btn-success">Login</button>
+                <span style="color:#666;font-size:12px; margin-left:8px;">Need a login? <a href="#">Register</a></span>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>

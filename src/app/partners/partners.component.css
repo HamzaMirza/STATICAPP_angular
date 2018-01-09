@@ -1,0 +1,42 @@
+.partners-list ul{
+    list-style-type: none;
+}
+.partners-list li {
+    height: 80px;
+    width: 150px;
+    float: left;
+    list-style: none;
+    margin: 0 15px;
+    padding: 6px 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+@media (max-width: 420px){
+.partners {
+    width: 190px !important;
+}
+}
+
+@media (max-width: 600px) and (min-width: 420px){
+.partners {
+    width: 400px !important;
+}
+}
+
+@media (max-width: 979px) and (min-width: 600px){
+.partners {
+    width: 550px !important;
+}
+}
+
+.partners{
+    text-align: center;
+    clear: both;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding-left: 0;
+}
